@@ -35,7 +35,7 @@ sudo tar -zxf apache-maven-3.3.9-bin.tar.gz -C /usr/local/
 sudo ln -s /usr/local/apache-maven-3.3.9/bin/mvn /usr/local/bin/mvn
 ```
 
-#### Istalling Cassandra
+#### Installing Cassandra
 ```sh
 ##Installing Cassandra
 
