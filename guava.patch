@@ -1,0 +1,64 @@
+diff --git a/cassandra/pom.xml b/cassandra/pom.xml
+index 8c3e30b..6b4bcc5 100644
+--- a/cassandra/pom.xml
++++ b/cassandra/pom.xml
+@@ -146,7 +146,7 @@
+         <dependency>
+             <groupId>com.google.guava</groupId>
+             <artifactId>guava</artifactId>
+-            <version>16.0</version>
++            <version>19.0</version>
+             <scope>test</scope>
+         </dependency>
+ 
+diff --git a/elasticsearch/pom.xml b/elasticsearch/pom.xml
+index d3625e0..d85ce35 100644
+--- a/elasticsearch/pom.xml
++++ b/elasticsearch/pom.xml
+@@ -35,7 +35,7 @@
+ 
+   <properties>
+     <elasticsearch.version>2.1.0</elasticsearch.version>
+-    <guava.version>18.0</guava.version>
++    <guava.version>19.0</guava.version>
+     <json-flattener.version>0.1.1</json-flattener.version>
+   </properties>
+ 
+diff --git a/pom.xml b/pom.xml
+index c3f554f..11931ef 100755
+--- a/pom.xml
++++ b/pom.xml
+@@ -111,7 +111,7 @@
+     <log4j.version>1.2.17</log4j.version>
+     <libthrift.version>0.9.2</libthrift.version>
+     <gson.version>2.2</gson.version>
+-    <guava.version>15.0</guava.version>
++    <guava.version>19.0</guava.version>
+ 
+     <PermGen>64m</PermGen>
+     <MaxPermGen>512m</MaxPermGen>
+diff --git a/spark/pom.xml b/spark/pom.xml
+index a55bf5b..7fd6908 100644
+--- a/spark/pom.xml
++++ b/spark/pom.xml
+@@ -124,7 +124,7 @@
+     <dependency>
+       <groupId>com.google.guava</groupId>
+       <artifactId>guava</artifactId>
+-      <version>14.0.1</version>
++      <version>19.0</version>
+     </dependency>
+ 
+     <!-- Aether :: maven dependency resolution -->
+diff --git a/zeppelin-zengine/pom.xml b/zeppelin-zengine/pom.xml
+index 5c72609..9906072 100644
+--- a/zeppelin-zengine/pom.xml
++++ b/zeppelin-zengine/pom.xml
+@@ -121,6 +121,7 @@
+     <dependency>
+       <groupId>com.google.guava</groupId>
+       <artifactId>guava</artifactId>
++      <version>19.0</version>
+     </dependency>
+ 
+     <dependency>
