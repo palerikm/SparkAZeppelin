@@ -1,12 +1,12 @@
 # SparkAZeppelin
 
 ## Summary
-Zeppelin is in early stages and can be a bit painfull to install, especially with the cassandra database drivers. Making sure all the versions of the various components are compatible is a big thing. After poking around and looking at various howtos the soltion was not so bad in the end. Thanks to the Zeppelin team for spending time on a very promesing project.
+Zeppelin is in early stages and can be a bit painfull to install, especially with the cassandra database drivers. Making sure all the versions of the various components are compatible is a big thing. After poking around and looking at various howtos the solution was not so bad in the end. Thanks to the Zeppelin team for spending time on a very promising project.
 
 ## Install and Setup
-This have been tested on Ubuntu 14.04.
+This has been tested on Ubuntu 14.04.
 
-### Prerequesits
+### Prerequisites
 
 * Java
 * Node and libfontconfig
@@ -77,7 +77,7 @@ This script will do the following:
  * patch it to use updated guava version
  * build zeppelin
  * configure zeppelin
-   - Various IP adresses
+   - Various IP addresses
    - set SPARK_SUBMIT_OPTIONS to use the right cassandra connector (Build for scala 2.10)
 
 Make sure to update the CASSANDRA_HOST variable in the script if your database is running on a different machine
@@ -90,9 +90,9 @@ Run the following script to start spark and zeppelin.
 ```
 
 This script will:
-* start up a spark master instance at <your_ip>:8080
+* start up a spark master instance at [your_ip]:8080
 * start up a spark slave and connect it to the running master.
-* start up zeppelin at <your_ip>:8888
+* start up zeppelin at [your_ip]:8888
 
 Run
 ```sh
